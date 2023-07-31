@@ -1,0 +1,78 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+tr th{
+    font-weight: 100;
+    padding: 10px;
+
+}
+
+tr th:first-child{
+  text-align: left;
+  width: 50px;
+
+}
+
+tr th:nth-child(2){
+    text-align: start;
+    width: 50px;
+} 
+
+tr th:nth-child(3){
+    text-align: start;
+    width: 50px;
+} 
+
+tr th:last-child {
+    text-align: right;
+    
+  }
+
+tbody tr td:nth-child(2){
+    width: 200px;
+}
+
+tbody tr td:last-child {
+    text-align: right;
+  }
+  
+
+tbody tr td{
+padding: 8px 10px;
+}
+
+.btnList button:first-child{
+    margin-top: 20px;
+    margin-right: 8px;
+    border: 0;
+    padding: 6px;
+    background: rgba(114, 35, 35, 0.781);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnList button:first-child:hover{
+    background: rgb(3, 3, 3);
+}
+
+.btnList button:nth-child(2){
+    margin-top: 20px;
+    border: 0;
+    padding: 6px;
+    background: #6a92c2d7;
+    border-radius: 4px;
+    color: #070707;
+    cursor: pointer;
+}
+
+.btnList button:nth-child(2):hover{ 
+    background: #9a999ecc;
+}
